@@ -4,6 +4,17 @@
 a {
   color: #4c76b1;
 }
+.nav-link a {
+  color: #ddd;
+  text-decoration: none;
+}
+.nav-link a:hover {
+  color: #fff;
+  transition: all .4s;
+}
+.nav-name {
+  color: #ddd;
+}
 .profile-background {
     height: 355px;  
 /*    padding-top: 50px;  If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
@@ -100,6 +111,17 @@ a {
 }
 .contact-info {
   flex: 55;
+}
+.back-to-top {
+  text-align: center;
+}
+.back-to-top a {
+  color: #2c5691;
+  text-decoration: none;
+}
+.back-to-top a:hover {
+  color: #6c96d1;
+  transition: all .4s;
 }
 footer {
   background-color: #1a2e4a;

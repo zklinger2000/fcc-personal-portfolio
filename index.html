@@ -13,13 +13,13 @@
   <link href='https://fonts.googleapis.com/css?family=Kreon' rel='stylesheet'>
 </head>
 <body>
-<div class="content-wrapper">
+<div id="top" class="content-wrapper">
   <header class="main-header">
     <nav class="main-nav">
       <h2 class="nav-name">Zack Klinger</h2>
-      <h2 class="nav-link">About</h2>
-      <h2 class="nav-link">Portfolio</h2>
-      <h2 class="nav-link">Contact</h2>
+      <h2 class="nav-link"><a href="#about">About</a></h2>
+      <h2 class="nav-link"><a href="#portfolio">Portfolio</a></h2>
+      <h2 class="nav-link"><a href="#contact">Contact</a></h2>
     </nav>
     <div class="profile-background">
       <h1 class="header-title">Zack Klinger</h1>
@@ -28,7 +28,7 @@
     </div>
   </header>
   <div class="about-content">
-    <h2>About me</h2>
+    <h2 id="about">About me</h2>
     <p>
       I'm a web developer with a background in animation, photography and visual effects.
       I've done everything from software QA to running my own business in arboriculture. 
@@ -42,7 +42,7 @@
     </p>
   </div>
   <div class="portfolio-content">
-    <h2>Portfolio</h2>
+    <h2 id="portfolio">Portfolio</h2>
     <div class="row">
       <img class="img-responsive" src="https://40.media.tumblr.com/df8924ebc8b6f81e1d3d08b06df4d619/tumblr_o4kej7Qlie1ro57m2o1_1280.jpg">
       <div>
@@ -66,7 +66,7 @@
     </div>
   </div>
   <div class="contact-content">
-    <h2>Contact</h2>
+    <h2 id="contact">Contact</h2>
     <div class="contact-row">
       <label>Phone</label>
       <div class="contact-info">
@@ -79,6 +79,7 @@
         <p>example@github.com</p>
       </div>
     </div>
+    <div class="back-to-top"><a href="#top">back to top</a></div>
   </div>
   <footer>
     <nav>
